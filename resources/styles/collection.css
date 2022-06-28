@@ -1,0 +1,3 @@
+.collection {
+  @apply pb-12 px-5 lg:pr-20 xl:pl-12 xl:pr-32 xl:pb-40;
+}

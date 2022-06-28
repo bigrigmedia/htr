@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply my-0 tracking-wide;
+}
+
+h1 {
+  @apply font-bicyclette font-bold text-mobile-5xl leading-4xl xl:text-5xl xl:leading-5xl;
+}
+
+h2 {
+  @apply font-bicyclette font-black text-mobile-4xl xl:text-4xl text-htr-moss xl:leading-4xl uppercase;
+}
+
+h3 {
+  @apply font-bicyclette font-bold text-mobile-3xl leading-tight xl:text-3xl xl:leading-2xl uppercase;
+}
+
+h4 {
+  @apply font-bicyclette font-bold text-mobile-2xl xl:text-2xl;
+}
+
+h5 {
+  @apply font-poppins font-bold text-mobile-xl xl:text-xl leading-tight xl:leading-normal;
+}
+
+h6 {
+  @apply font-bicyclette font-bold text-lg;
+}
+
+p,
+li:not([class]) {
+  @apply mt-0 text-base font-poppins tracking-wider;
+}

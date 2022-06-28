@@ -1,0 +1,7 @@
+.testimonial-content {
+  @apply px-5 lg:pl-16 lg:pr-32 xl:px-32 text-center;
+}
+
+.testimonial-content h2 {
+  @apply text-white;
+}

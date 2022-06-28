@@ -1,0 +1,20 @@
+.gravity-theme {
+  @apply !mt-16 !text-left;
+}
+
+.gfield_label {
+  @apply !font-poppins !font-semibold !text-htr-moss !uppercase !tracking-widest;
+}
+
+.ginput_container input,
+.ginput_container textarea {
+  @apply !min-h-[45px] !bg-transparent !border-1 !border-solid !border-htr-charcoal;
+}
+
+.gform_footer {
+  @apply !justify-end;
+}
+
+.gform_button {
+  @apply !font-bicyclette !font-bold !text-lg !uppercase !tracking-widest !bg-transparent !border-0 !cursor-pointer;
+}

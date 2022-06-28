@@ -1,0 +1,19 @@
+.gm-style .gm-style-iw-c {
+  @apply !m-0 !p-0 !bg-htr-canvas !rounded-none !shadow-lg !shadow-htr-charcoal/25;
+}
+
+.gm-style .gm-style-iw-d {
+  @apply !overflow-visible;
+}
+
+.gm-style .gm-style-iw-t::after {
+  background: #ede8dd !important;
+}
+
+.gm-ui-hover-effect {
+  @apply !w-14 !h-14 !opacity-100;
+}
+
+.gm-ui-hover-effect > span {
+  @apply !w-7 !h-7 !bg-htr-canvas;
+}

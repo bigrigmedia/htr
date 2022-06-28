@@ -1,0 +1,7 @@
+.animate-scale {
+  @apply block transition ease-in-out duration-700;
+}
+
+.animate-scale:hover {
+  @apply transform scale-110;
+}

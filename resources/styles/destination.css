@@ -1,0 +1,115 @@
+.destination-header {
+  @apply flex flex-row items-center justify-between lg:items-end lg:justify-between fixed top-0 inset-x-0 z-60 w-full lg:h-[95px] pt-4 pb-4 lg:pb-0 px-5 xl:pl-12 xl:pr-[70px] bg-htr-bg lg:border-b-1 lg:border-t-0 lg:border-x-0 lg:border-solid lg:border-htr-charcoal shadow-md shadow-htr-charcoal/25 lg:shadow-none;
+}
+
+.destination-header-child {
+  @apply flex flex-row flex-wrap items-center justify-between pt-4 px-5 xl:pl-12 xl:pr-[70px];
+}
+
+.destination-logo {
+  @apply inline-block w-mobile-logo h-mobile-logo lg:w-logo-small lg:h-logo-small lg:mb-3;
+}
+
+.destination-logo-child {
+  @apply inline-block w-mobile-logo h-mobile-logo lg:w-logo lg:h-logo lg:mb-3;
+}
+
+.destination-menu {
+  @apply lg:flex lg:items-stretch lg:justify-between lg:relative lg:border-t-1 lg:border-b-0 lg:border-x-0 lg:border-solid lg:border-htr-charcoal;
+}
+
+.destination-current {
+  @apply hidden lg:block lg:absolute lg:left-0 lg:-top-[96%] lg:pt-2 lg:text-md lg:font-poppins lg:font-bold lg:uppercase lg:tracking-wider lg:border-t-5 lg:border-b-0 lg:border-x-0 lg:border-solid lg:border-htr-charcoal;
+}
+
+.destination-intro {
+  @apply pb-5 lg:pb-24 border-b-1 border-t-0 border-x-0 border-solid border-htr-charcoal;
+}
+
+.destination-intro-child {
+  @apply pb-5 lg:pb-24;
+}
+
+.destination-intro-header {
+  @apply block mb-8 pb-5 text-mobile-page-header xl:text-page-header font-bicyclette font-bold uppercase border-b-1 border-t-0 border-x-0 border-solid border-htr-charcoal;
+}
+
+.destination-intro-header-child {
+  @apply block mb-4 text-mobile-page-header xl:text-page-header font-bicyclette font-bold uppercase;
+}
+
+.destination-taxonomies-grid {
+  @apply lg:grid lg:grid-cols-2 space-y-11 lg:space-y-0;
+}
+
+.destination-taxonomy-col {
+  @apply relative pt-2 border-t-1 border-b-0 border-x-0 border-solid border-htr-charcoal;
+}
+
+.destination-taxonomy-col::before {
+  @apply block pt-2 border-t-1 border-b-0 border-x-0 border-solid border-htr-charcoal;
+
+  content: "";
+}
+
+.destination-taxonomy-col::after {
+  @apply block absolute top-0 left-0 w-full max-w-[119px] h-2 bg-htr-charcoal;
+
+  content: "";
+}
+
+.destination-taxonomy-title {
+  @apply block pt-2 pb-3 font-poppins font-bold uppercase tracking-wider border-b-1 border-t-0 border-x-0 border-solid border-htr-charcoal;
+}
+
+.destination-taxonomy-list {
+  @apply grid grid-cols-2 gap-4 lg:block mt-14 pl-0 list-none lg:space-y-8;
+}
+
+.destination-taxonomy-list-grid {
+  @apply grid grid-cols-2 gap-4 mt-8 pl-0 list-none;
+}
+
+.destination-site-type-content p {
+  @apply text-sm;
+}
+
+.destination-faq-title {
+  @apply w-full max-w-[253px] lg:max-w-none text-base xl:text-lg font-poppins font-bold text-htr-charcoal uppercase text-left;
+}
+
+.destination-faq-content {
+  @apply py-12 xl:px-12 border-t-1 border-b-0 border-x-0 border-solid border-htr-charcoal;
+}
+
+.destination-faq-content[data-state="closed"] {
+  @apply hidden;
+}
+
+.destination-image {
+  @apply mt-8;
+}
+
+.destination-book {
+  @apply hidden lg:inline-flex items-center px-10 font-bicyclette font-bold text-btn-primary text-htr-charcoal no-underline uppercase tracking-wider bg-htr-dawn hover:text-htr-canvas hover:bg-htr-charcoal;
+}
+
+.destination-carousel {
+  @apply mt-8;
+}
+
+.destination-carousel-buttons {
+  @apply flex items-center justify-center mt-8;
+}
+
+.destinations-layout {
+  @apply hidden;
+}
+
+.destinations-layout-map {
+  @apply hidden w-auto lg:w-full h-screen max-h-mobile-map lg:max-h-map mt-7 -mx-5 lg:mx-0;
+}
+
+.destinations-layout.is-active {
+  @apply block;
+}

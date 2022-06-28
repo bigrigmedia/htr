@@ -1,0 +1,31 @@
+.rule-1,
+.rule-2 {
+  @apply w-full;
+}
+
+.rule-1 span,
+.rule-2 span {
+  @apply tracking-widest;
+}
+
+.rule-1 {
+  @apply flex justify-between py-2 mb-4 font-poppins uppercase border-t-5 border-x-0 border-b-1 border-solid border-htr-charcoal;
+}
+
+.rule-1 span:first-of-type {
+  @apply font-semibold;
+}
+
+.rule-2 {
+  @apply relative mb-4 pt-2 border-t-1 border-x-0 border-b-0 border-solid border-htr-charcoal;
+}
+
+.rule-2::before {
+  @apply block relative w-full h-px mb-8 bg-htr-charcoal;
+
+  content: '';
+}
+
+.rule-2 span:first-of-type {
+  @apply font-bicyclette font-semibold text-htr-moss uppercase;
+}

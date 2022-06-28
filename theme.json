@@ -1,0 +1,142 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "canvas",
+          "color": "#EDE8DD",
+          "name": "Canvas"
+        },
+        {
+          "slug": "spruce",
+          "color": "#2C3A26",
+          "name": "Spruce"
+        },
+        {
+          "slug": "moss",
+          "color": "#879365",
+          "name": "Moss"
+        },
+        {
+          "slug": "charcoal",
+          "color": "#272323",
+          "name": "Charcoal"
+        },
+        {
+          "slug": "dawn",
+          "color": "#D7684A",
+          "name": "Dawn"
+        },
+        {
+          "slug": "ember",
+          "color": "#4F1F1D",
+          "name": "Ember"
+        },
+        {
+          "slug": "fog",
+          "color": "#ADAFA1",
+          "name": "Fog"
+        },
+        {
+          "slug": "river",
+          "color": "#2D4656",
+          "name": "River"
+        },
+        {
+          "slug": "dusk",
+          "color": "#363049",
+          "name": "Dusk"
+        },
+        {
+          "slug": "sky",
+          "color": "#A0CEC7",
+          "name": "Sky"
+        },
+        {
+          "slug": "flame",
+          "color": "#EE8936",
+          "name": "Flame"
+        },
+        {
+          "slug": "sandstone",
+          "color": "#E8BE7C",
+          "name": "Sandstone"
+        }
+      ],
+      "background": false,
+      "custom": false,
+      "customGradient": false,
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "text": true
+    },
+    "custom": {
+      "spacing": {},
+      "typography": {
+        "font-size": {},
+        "line-height": {}
+      }
+    },
+    "spacing": {
+      "margin": false,
+      "padding": false,
+      "units": ["px", "%", "em", "rem", "vw", "vh"]
+    },
+    "typography": {
+      "customFontSize": true,
+      "lineHeight": false,
+      "dropCap": false,
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "textDecoration": false,
+      "textTransform": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "Bicyclette, sans-serif",
+          "slug": "bicyclette",
+          "name": "Bicyclette"
+        },
+        {
+          "fontFamily": "Poppins, sans-serif",
+          "slug": "poppins",
+          "name": "Poppins"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "h1",
+          "size": "170px",
+          "name": "H1"
+        },
+        {
+          "slug": "h2",
+          "size": "67px",
+          "name": "H2"
+        },
+        {
+          "slug": "h3",
+          "size": "48px",
+          "name": "H3"
+        },
+        {
+          "slug": "h4",
+          "size": "48px",
+          "name": "H4"
+        },
+        {
+          "slug": "h5",
+          "size": "24px",
+          "name": "H5"
+        },
+        {
+          "slug": "h6",
+          "size": "24px",
+          "name": "H6"
+        }
+      ]
+    }
+  }
+}

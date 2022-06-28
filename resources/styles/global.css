@@ -1,0 +1,18 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  @apply font-poppins bg-htr-bg;
+
+  text-rendering: optimizeLegibility;
+}
+
+figure {
+  @apply m-0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

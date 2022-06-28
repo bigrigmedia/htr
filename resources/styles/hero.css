@@ -1,0 +1,23 @@
+.hero {
+  @apply flex items-center relative bg-cover bg-no-repeat bg-center overflow-hidden;
+}
+
+.hero.has-bg {
+  @apply h-screen max-h-mobile-hero min-h-mobile-hero lg:max-h-hero lg:min-h-hero;
+}
+
+.hero-content {
+  @apply relative z-50 w-full pb-7 px-5 pb-16 xl:pb-32 xl:px-32 text-white text-center;
+}
+
+body:not(.page-template-template-home) .hero-content h1 {
+  @apply text-[36px] leading-none lg:text-[120px];
+}
+
+.page-template-template-home .hero-content {
+  @apply self-end text-left;
+}
+
+.single-destinations .hero.has-bg {
+  @apply min-h-mobile-hero-destination lg:min-h-hero-destination max-h-mobile-hero-destination lg:max-h-hero-destination;
+}

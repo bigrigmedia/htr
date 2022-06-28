@@ -1,0 +1,19 @@
+.cta {
+  @apply lg:flex lg:flex-row lg:items-center relative text-center lg:text-left bg-htr-moss;
+}
+
+.cta.is-max-height {
+  @apply py-52 xl:py-80;
+}
+
+.cta.is-default {
+  @apply py-24 xl:py-40;
+}
+
+.cta p {
+  @apply mb-0;
+}
+
+.cta span {
+  @apply block xl:inline-block xl:max-w-2xl mb-6 lg:mb-0 font-bicyclette font-bold text-mobile-cta leading-none xl:text-cta text-white xl:leading-4xl uppercase;
+}

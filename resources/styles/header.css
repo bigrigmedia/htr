@@ -1,0 +1,15 @@
+.header-fixed {
+  @apply flex flex-row items-center lg:items-start justify-between fixed top-0 inset-x-0 z-60 w-full lg:h-28 xl:h-logo pt-4 pb-4 md:pb-8 lg:pt-9 lg:pb-0 px-5 xl:px-32 bg-htr-bg lg:bg-transparent shadow-md shadow-htr-charcoal/25 lg:shadow-none;
+}
+
+.header-static {
+  @apply flex flex-row items-center justify-between fixed top-0 inset-x-0 z-60 lg:static pt-4 pb-4 md:pb-8 lg:pb-0 px-5 xl:pl-12 xl:pr-[70px] bg-htr-bg;
+}
+
+.header-large-logo {
+  @apply inline-block w-mobile-logo h-mobile-logo lg:w-logo lg:h-logo transition-all;
+}
+
+.header-small-logo {
+  @apply inline-block w-mobile-logo h-mobile-logo lg:w-logo lg:h-logo lg:mb-3;
+}
