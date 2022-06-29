@@ -27,7 +27,7 @@
           @foreach($gallery as $image)
             <figure class='destination-image js-image' data-groups='["{{ $key }}"]'>
               <a class='block overflow-hidden' href='{{ $image['url'] }}' data-fancybox='gallery'>
-                <img class='animate-scale' src='{{ $image['sizes']['w470x419'] }}' alt='{{ $image['alt'] }}' />
+                <img class='w-full animate-scale' src='{{ $image['sizes']['w470x419'] }}' alt='{{ $image['alt'] }}' />
               </a>
             </figure>
           @endforeach

@@ -1,4 +1,4 @@
-<div id="list" class='destinations-layout'>
+<div id="list" class='destinations-layout is-active'>
   <div class='grid md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-16 mt-7'>
     @foreach($getDestinations as $destination)
       @php

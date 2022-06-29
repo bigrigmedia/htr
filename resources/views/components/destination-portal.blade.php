@@ -24,7 +24,7 @@
   </div>
   <div class='order-1 lg:order-2 pb-6 lg:pb-0'>
     <a class='block overflow-hidden' href='{{ $link }}'>
-      <img class='animate-scale' src='{{ $image }}' alt='{{ $city }}' loading='lazy' />
+      <img class='w-full animate-scale' src='{{ $image }}' alt='{{ $city }}' loading='lazy' />
     </a>
   </div>
 </div>

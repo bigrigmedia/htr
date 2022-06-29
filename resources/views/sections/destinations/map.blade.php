@@ -1,4 +1,4 @@
-<div id="map" class="destinations-layout destinations-layout-map is-active"></div>
+<div id="map" class="destinations-layout destinations-layout-map"></div>
 @php
   $json = [];
 

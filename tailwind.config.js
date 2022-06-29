@@ -101,6 +101,9 @@ module.exports = {
       'inset': {
         'edge': '-7px'
       },
+      'screens': {
+        '3xl': '1920px',
+      }
     },
   },
   corePlugins: [

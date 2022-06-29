@@ -39,11 +39,11 @@
 }
 
 .btn-faq .btn-svg {
-  @apply w-12 h-12 xl:w-20 xl:h-20 mr-0;
+  @apply w-12 h-12 xl:w-20 xl:h-20 mr-0 rotate-180;
 }
 
 .btn-faq.is-active .btn-svg {
-  @apply rotate-180;
+  @apply rotate-[360deg];
 }
 
 .btn-faq.is-active .btn-svg-outer {

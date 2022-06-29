@@ -8,7 +8,7 @@
 
 .ginput_container input,
 .ginput_container textarea {
-  @apply !min-h-[45px] !bg-transparent !border-1 !border-solid !border-htr-charcoal;
+  @apply !min-h-[45px] !bg-transparent !border-1 !border-solid !border-htr-charcoal !rounded-none;
 }
 
 .gform_footer {
@@ -16,5 +16,5 @@
 }
 
 .gform_button {
-  @apply !font-bicyclette !font-bold !text-lg !uppercase !tracking-widest !bg-transparent !border-0 !cursor-pointer;
+  @apply !font-bicyclette !font-bold !text-lg !text-htr-charcoal !uppercase !tracking-widest !bg-transparent !border-0 !cursor-pointer;
 }

@@ -9,7 +9,7 @@
     <div class='destination-carousel'>
       <div class='siema'>
         @foreach($carousel as $image)
-          <img src='{{ $image['sizes']['w1536x954'] }}' alt='{{ $image['alt'] }}' loading='lazy' />
+          <img class='w-full' src='{{ $image['sizes']['w1536x954'] }}' alt='{{ $image['alt'] }}' loading='lazy' />
         @endforeach
       </div>
       <div class='destination-carousel-buttons'>

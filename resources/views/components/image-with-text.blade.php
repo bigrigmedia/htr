@@ -13,6 +13,7 @@
   <div class='lg:grid lg:grid-cols-12 lg:gap-14'>
     <div class='lg:col-span-8 mb-10 lg:mb-0'>
       <img
+        class='w-full'
         srcset='{{ $image['sizes']['w698x776'] }} 698w, {{ $image['sizes']['w1013x668'] }} 1013w'
         sizes='(max-width: 375px) 698px, (min-width: 812px) 1013px, 698px'
         src='{{ $image['sizes']['w1013x668'] }}'

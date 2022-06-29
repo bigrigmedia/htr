@@ -14,6 +14,7 @@ import './modals'
 import './carousel'
 import './layout'
 import './top'
+import './anchors'
 
 /**
  * app.main

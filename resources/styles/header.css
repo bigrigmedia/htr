@@ -3,7 +3,7 @@
 }
 
 .header-static {
-  @apply flex flex-row items-center justify-between fixed top-0 inset-x-0 z-60 lg:static pt-4 pb-4 md:pb-8 lg:pb-0 px-5 xl:pl-12 xl:pr-[70px] bg-htr-bg;
+  @apply flex flex-row items-center justify-between fixed top-0 inset-x-0 z-60 lg:static pt-4 pb-4 md:pb-8 lg:pb-0 px-5 xl:pl-12 xl:pr-[70px] bg-htr-bg shadow-md shadow-htr-charcoal/25 lg:shadow-none;
 }
 
 .header-large-logo {

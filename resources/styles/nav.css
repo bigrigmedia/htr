@@ -1,5 +1,5 @@
 .menu {
-  @apply lg:flex lg:items-center fixed inset-y-0 -right-[100%] lg:-right-[68%] 2xl:-right-[43%] z-60 w-full text-htr-charcoal bg-htr-bg lg:border-l-1 lg:border-r-0 lg:border-y-0 lg:border-solid lg:border-htr-charcoal transition-all;
+  @apply lg:flex lg:items-center fixed inset-y-0 -right-[100%] lg:-right-[68%] 2xl:-right-[43%] 3xl:-right-[37.5%] z-60 w-full text-htr-charcoal bg-htr-bg lg:border-l-1 lg:border-r-0 lg:border-y-0 lg:border-solid lg:border-htr-charcoal transition-all;
 }
 
 .menu::before {
