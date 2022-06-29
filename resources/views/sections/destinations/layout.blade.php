@@ -6,8 +6,8 @@
     <h3>Destinations</h3>
     @include('sections.destinations.filter')
     <div class='btn-pickers'>
-      <button class='btn-picker js-layout is-active' data-layout='list'>List</button>
-      <button class='btn-picker js-layout' data-layout='map'>Map</button>
+      <button class='btn-picker js-layout' data-layout='list'>List</button>
+      <button class='btn-picker js-layout is-active' data-layout='map'>Map</button>
     </div>
   </div>
   @include('sections.destinations.list')
