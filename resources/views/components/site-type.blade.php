@@ -7,9 +7,16 @@
     <div class='destination-site-type-content'>
       {!! apply_filters('the_content', $content) !!}
     </div>
-    <div class='hidden lg:block mt-16'>
+    <div class='hidden lg:flex lg:items-center lg:justify-between mt-16 pb-8 border-b-1 border-t-0 border-x-0 border-solid border-htr-charcoal'>
+      <a class='btn-link' href='{{ $link }}'>Learn More &rsaquo;</a>
       @if($booking)
-        <a class='btn-link' href='{{ $booking }}'>Book Now &rsaquo;</a>
+        <a class='btn-icon' href='{{ $booking }}'>
+          <svg class='btn-svg' fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 97 97'>
+            <path class='btn-svg-outer' d='M.707 48.027 48.027.707l47.32 47.32-47.32 47.32z' />
+            <path class='btn-svg-inner' d='M66.06 49.06a1.5 1.5 0 0 0 0-2.12l-9.545-9.547a1.5 1.5 0 1 0-2.122 2.122L62.88 48l-8.486 8.485a1.5 1.5 0 1 0 2.122 2.122l9.546-9.546ZM29 49.5h36v-3H29v3Z' />
+          </svg>
+          Book Now
+        </a>
       @endif
     </div>
     <div class='btn-group mt-6 lg:hidden'>

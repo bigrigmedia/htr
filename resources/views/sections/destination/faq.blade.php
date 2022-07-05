@@ -16,7 +16,7 @@
 @if($faqs->have_posts())
   <section id='faqs' class='px-5 lg:pr-20 xl:pl-12 lx:pr-32 pb-12 xl:pb-40 scroll-m-8'>
     <x-rule type='2' heading='FAQ' subheading='' />
-    <h3>Have Questions About Your<br> Stay? We Got You</h3>
+    <h3>Have Questions About Your<br> Stay? We Got You.</h3>
     <div class='mt-8'>
       @foreach($faqs->posts as $faq)
         <div class='pt-6 border-t-1 border-b-0 border-x-0 border-solid border-htr-charcoal'>

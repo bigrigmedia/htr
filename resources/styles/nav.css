@@ -24,11 +24,11 @@
 }
 
 .menu-item-destination {
-  @apply flex items-center justify-between lg:pb-8 font-bicyclette border-t-0 border-b-1 border-x-0 border-solid border-htr-charcoal last-of-type:border-b-0 last-of-type:pb-0 opacity-40 transition-all;
+  @apply flex items-center justify-between lg:pb-8 font-bicyclette border-t-0 border-b-1 border-x-0 border-solid border-htr-charcoal last-of-type:border-b-0 last-of-type:pb-0 opacity-100 transition-all;
 }
 
 .menu-item-destination.is-active {
-  @apply opacity-100;
+  @apply opacity-40;
 }
 
 /*

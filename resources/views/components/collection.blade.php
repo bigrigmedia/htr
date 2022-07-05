@@ -40,4 +40,4 @@
       Explore All Our Destinations
     </a>
   </div>
-</section
+</section>

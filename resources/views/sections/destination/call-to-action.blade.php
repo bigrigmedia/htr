@@ -1,8 +1,15 @@
 @php
-  $mobile = get_field('action_background')['sizes']['w444x742'] ?? null;
-  $desktop = get_field('action_background')['sizes']['w1917x1058'] ?? null;
-  $content = get_field('action_content');
-  $booking = get_field('booking_url');
+  if ($post->post_parent === 0) {
+    $mobile = get_field('action_background')['sizes']['w444x742'] ?? null;
+    $desktop = get_field('action_background')['sizes']['w1917x1058'] ?? null;
+    $content = get_field('action_content');
+    $booking = get_field('booking_url');
+  } else {
+    $mobile = get_field('action_background', $post->post_parent)['sizes']['w444x742'] ?? null;
+    $desktop = get_field('action_background', $post->post_parent)['sizes']['w1917x1058'] ?? null;
+    $content = get_field('action_content', $post->post_parent);
+    $booking = get_field('booking_url', $post->post_parent);
+  }
 @endphp
 <section class='cta is-default js-background' data-mobile='{{ $mobile }}' data-desktop='{{ $desktop }}'>
   <svg class='absolute top-edge inset-x-0 z-50' fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1748 55'>
@@ -11,7 +18,7 @@
   <div class='lg:flex lg:flex-row lg:items-center lg:justify-between relative z-50 w-full px-5 lg:pl-16 lg:pr-32 xl:px-32'>
     {!! $content !!}
     @if($booking)
-      <a class='btn-action' href='{{ $booking }}'>Book Now</a>
+      <a class='btn-action' href='{{ $booking }}'>Book Now &rsaquo;</a>
     @endif
   </div>
 </section>

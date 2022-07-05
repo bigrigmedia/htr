@@ -8,7 +8,7 @@
   <div class='lg:flex lg:flex-row lg:items-center lg:justify-between relative z-50 w-full px-5 lg:pl-16 lg:pr-32 xl:px-32'>
     {!! $heading !!}
     @if($booking)
-      <a class='btn-action' href='{{ $booking }}'>Book Now</a>
+      <a class='btn-action' href='{{ $booking }}'>Book Now &rsaquo;</a>
     @endif
   </div>
 </section>

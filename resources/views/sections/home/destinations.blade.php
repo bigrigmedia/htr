@@ -1,7 +1,7 @@
 <section class='px-5 lg:pr-20 xl:pl-12 xl:pr-32 xl:pb-40'>
   <x-rule type='2' heading='Destinations' subheading='' />
   <div class='lg:flex lg:items-center lg:justify-between pb-8 lg:pb-16'>
-    <h3>Pickup Your Destination.<br> We'll Help with the Journey</h3>
+    <h3>Pickup Your Destination.<br> We'll Help with the Journey.</h3>
     <div class='hidden lg:inline-block'>
       <a class='btn-icon' href='{{ get_permalink(161) }}'>
         <svg class='btn-svg' fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 97 97'>

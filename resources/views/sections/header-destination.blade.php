@@ -40,7 +40,7 @@
     </div>
   </div>
   @if($post->post_parent !== 0)
-    <div class='block w-full lg:pt-16 pr-5 lg:pr-6'>
+    <div class='hidden lg:block w-full lg:pt-16 pr-5 lg:pr-6'>
       <x-rule type='2' heading='' subheading='' />
     </div>
   @endif
