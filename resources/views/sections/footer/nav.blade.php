@@ -8,7 +8,7 @@
 <div class='order-2 lg:order-4 col-span-6 lg:col-span-9 -mb-[100px] lg:mb-0 px-5 xl:px-32 lg:py-14 text-white'>
   <div class='grid lg:grid-cols-4 gap-8 py-14 lg:py-0'>
     <div class='order-2 lg:order-1'>
-      <p class='mb-6 text-sm lg:text-md font-poppins font-bold uppercase tracking-widest'>Destinations</p>
+      <p class='mb-6 text-sm lg:text-md font-poppins font-bold text-htr-canvas uppercase tracking-widest'>Destinations</p>
       <ul class='my-0 pl-0 list-none space-y-2'>
         @foreach($getDestinations as $destination)
           <li class='font-poppins'>
@@ -18,7 +18,7 @@
       </ul>
     </div>
     <div class='order-3 lg:order-2'>
-      <p class='mb-6 text-sm lg:text-md font-poppins font-bold uppercase tracking-widest'>HTR Resorts</p>
+      <p class='mb-6 text-sm lg:text-md font-poppins font-bold text-htr-canvas uppercase tracking-widest'>HTR Resorts</p>
       <ul class='my-0 pl-0 list-none space-y-2'>
         <li class='font-poppins'>
           <a class='text-sm lg:text-md font-normal text-htr-canvas uppercase tracking-widest no-underline hover:text-htr-flame' href='{{ get_permalink(193) }}'>About</a>
@@ -29,7 +29,7 @@
       </ul>
     </div>
     <div class='order-1 lg:order-3'>
-      <p class='mb-6 text-sm lg:text-md font-poppins font-bold uppercase tracking-widest'>Contact</p>
+      <p class='mb-6 text-sm lg:text-md font-poppins font-bold text-htr-canvas uppercase tracking-widest'>Contact</p>
       <div class='space-y-2'>
         @if($phone)
           <span class='block'>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class='lg:order-4 hidden lg:block'>
-      <p class='mb-6 text-sm lg:text-md font-poppins font-bold uppercase tracking-widest'>Socials</p>
+      <p class='mb-6 text-sm lg:text-md font-poppins font-bold text-htr-canvas uppercase tracking-widest'>Socials</p>
       <div class='space-x-2'>
         @if($facebook)
           <a class='btn-social' href='{{ $facebook }}'>

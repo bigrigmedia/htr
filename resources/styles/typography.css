@@ -24,7 +24,7 @@ h4 {
 }
 
 h5 {
-  @apply font-poppins font-bold text-mobile-xl xl:text-xl leading-tight xl:leading-normal;
+  @apply font-poppins font-bold text-mobile-xl xl:text-xl leading-[1.15];
 }
 
 h6 {

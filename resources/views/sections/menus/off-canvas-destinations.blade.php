@@ -5,7 +5,7 @@
   @if(!is_singular(['destinations']))
     <div class='lg:absolute lg:top-[7%] lg:-left-[36.5%] xl:-left-[42.8%]'>
       @if($booking)
-        <a class='border-b-1 border-t-0 border-x-0 border-solid border-htr-charcoal btn-primary' href='{{ $booking }}'>Book Now</a>
+        <a class='btn-primary' href='{{ $booking }}'>Book Now</a>
       @endif
       <button class='btn-hamburger js-nav' aria-label='Toggle Navigation'>
         <span class='btn-hamburger-line'></span>

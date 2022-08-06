@@ -3,18 +3,18 @@ import { domReady } from '@roots/sage/client'
 /**
  * Internal dependencies
  */
-import './logo'
-import './nav'
-import './destinations'
-import './hero'
-import './backgrounds'
-import './faqs'
-import './pickers'
-import './modals'
-import './carousel'
-import './layout'
-import './top'
 import './anchors'
+import './backgrounds'
+import './carousel'
+import './destinations'
+import './faqs'
+import './hero'
+import './layout'
+import './logo'
+import './modals'
+import './nav'
+import './pickers'
+import './top'
 
 /**
  * app.main
@@ -26,7 +26,7 @@ const main = async (err) => {
   }
 
   // application code
-  console.log('Built by Ernesto Arellano - Front-End Engineer')
+  //console.log('Built by Ernesto Arellano - Front-End Engineer')
 };
 
 /**

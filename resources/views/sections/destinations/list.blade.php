@@ -22,9 +22,9 @@
             loading='lazy'
           />
         </a>
-        <div class='flex items-center justify-between mt-2 text-lg font-poppins uppercase tracking-wider'>
-          <span class='font-bold'>{{ $city }}</span>
-          <span class='font-normal'>{{ $state }}</span>
+        <div class='flex items-center justify-between mt-2 text-lg font-bicyclette uppercase tracking-wider'>
+          <span class='text-[24px] font-bold group-hover:text-fog'>{{ $city }}</span>
+          <span class='text-[16px] font-normal'>{{ $state }}</span>
         </div>
       </div>
     @endforeach

@@ -24,7 +24,7 @@
         <ul class='hidden lg:flex lg:items-stretch lg:justify-between my-0 pl-0 lg:pr-7 xl:pr-14 list-none lg:space-x-11 xl:space-x-32'>
           @foreach($getDestinationSections as $key => $destinationSection)
             <li class='lg:flex lg:items-center text-sm xl:text-base font-bicyclette font-bold uppercase'>
-              <a class='text-htr-moss tracking-wider no-underline' href='#{{ $key }}'>{{ $destinationSection }}</a>
+              <a class='text-[16px] font-bold text-htr-moss tracking-wider no-underline hover:text-htr-fog' href='#{{ $key }}'>{{ $destinationSection }}</a>
             </li>
           @endforeach
         </ul>

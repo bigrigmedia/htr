@@ -7,7 +7,7 @@
 }
 
 .destination-logo {
-  @apply inline-block w-mobile-logo h-mobile-logo lg:w-logo-small lg:h-logo-small lg:mb-3;
+  @apply inline-block w-mobile-logo h-mobile-logo lg:w-logo-small lg:h-logo-small lg:mb-4;
 }
 
 .destination-logo-child {

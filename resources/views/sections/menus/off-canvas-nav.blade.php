@@ -14,7 +14,7 @@
   <ul class='w-full my-0 pt-32 px-12 lg:pt-0 lg:px-32 list-none space-y-6 lg:space-y-8'>
     @if($booking)
       <li class='w-full'>
-        <a class='btn-primary block text-center border-1 border-solid border-htr-charcoal' href='{{ $booking }}'>Book Now</a>
+        <a class='btn-primary block text-center' href='{{ $booking }}'>Book Now</a>
       </li>
     @endif
     @foreach($getPrimaryMenuItems as $item)
@@ -23,7 +23,7 @@
       </li>
     @endforeach
   </ul>
-  <div class='w-full mt-8 lg:mt-16 px-12 lg:px-32 space-y-2'>
+  <div class='w-full mt-8 lg:mt-16 px-12 lg:px-32 space-y-4'>
     <p class='mb-0 text-md font-poppins font-semibold uppercase tracking-widest'>Contact</p>
     <div class='space-y-1'>
       @if($phone)
@@ -37,7 +37,7 @@
         </span>
       @endif
     </div>
-    <div class='space-x-1'>
+    <div class='space-x-2'>
       @if($facebook)
         <a class='inline-block w-5 h-5' href='{{ $facebook }}'>
           <svg viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
