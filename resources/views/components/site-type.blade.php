@@ -3,7 +3,7 @@
 @endphp
 <div class='flex flex-col lg:grid lg:grid-cols-portal lg:gap-8 xl:gap-16'>
   <div class='order-2 lg:order-1'>
-    <h3 class='mb-4 lg:mb-9 lg:py-5 lg:border-t-5 lg:border-b-1 lg:border-x-0 lg:border-solid lg:border-htr-charcoal'>{{ $heading }}</h3>
+    <h3 class='mb-4 lg:mb-9 lg:py-5 normal-case lg:border-t-5 lg:border-b-1 lg:border-x-0 lg:border-solid lg:border-htr-charcoal'>{{ $heading }}</h3>
     <div class='destination-site-type-content'>
       {!! apply_filters('the_content', $content) !!}
     </div>

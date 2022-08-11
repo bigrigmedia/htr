@@ -113,3 +113,7 @@
 .destinations-layout.is-active {
   @apply block;
 }
+
+.destination-block:hover span {
+  @apply text-htr-fog;
+}

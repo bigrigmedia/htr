@@ -1,0 +1,11 @@
+.page-id-193 section:first-of-type {
+  @apply xl:pb-28;
+}
+
+.page-id-193 section:first-of-type h2 {
+  @apply xl:mb-24;
+}
+
+.page-id-193 section:first-of-type p {
+  @apply leading-loose;
+}

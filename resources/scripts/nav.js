@@ -6,8 +6,17 @@ const jsHovers = document.querySelectorAll('.js-hover')
 if (jsNavs) {
   const navMenu = document.getElementById('nav-menu')
 
+  document.addEventListener('click', () => {
+    if (body.classList.contains('nav-open')) {
+      body.classList.remove('nav-open')
+      navMenu.classList.remove('is-active')
+    }
+  })
+
   jsNavs.forEach(jsNav => {
-    jsNav.addEventListener('click', () => {
+    jsNav.addEventListener('click', (e) => {
+      e.stopPropagation()
+
       body.classList.toggle('nav-open');
       //jsNav.classList.toggle('is-active')
       navMenu.classList.toggle('is-active')

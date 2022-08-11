@@ -11,7 +11,7 @@
         $image_mobile = wp_get_attachment_image_src( get_post_thumbnail_id($destination->ID), 'w470x419' )[0] ?? null;
         $image_desktop = wp_get_attachment_image_src( get_post_thumbnail_id($destination->ID), 'w940x838' )[0] ?? null;
       @endphp
-      <div>
+      <div class='destination-block'>
         <a class='block overflow-hidden' href='{{ $link }}'>
           <img
             class='animate-scale'
@@ -23,8 +23,8 @@
           />
         </a>
         <div class='flex items-center justify-between mt-2 text-lg font-bicyclette uppercase tracking-wider'>
-          <span class='text-[24px] font-bold group-hover:text-fog'>{{ $city }}</span>
-          <span class='text-[16px] font-normal'>{{ $state }}</span>
+          <span class='text-[24px] font-bold transitiona-all'>{{ $city }}</span>
+          <span class='text-[16px] font-normal transitiona-all'>{{ $state }}</span>
         </div>
       </div>
     @endforeach

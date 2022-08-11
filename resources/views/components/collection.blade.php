@@ -13,7 +13,7 @@
         $image_mobile = wp_get_attachment_image_src( get_post_thumbnail_id($destination->ID), 'w470x419' )[0] ?? null;
         $image_desktop = wp_get_attachment_image_src( get_post_thumbnail_id($destination->ID), 'w940x838' )[0] ?? null;
       @endphp
-      <div>
+      <div class='destination-block'>
         <a class='block overflow-hidden' href='{{ $link }}'>
           <img
             class='animate-scale'

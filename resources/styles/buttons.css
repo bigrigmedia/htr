@@ -7,7 +7,7 @@
 }
 
 .btn-icon {
-  @apply flex items-center font-bicyclette font-bold text-mobile-btn xl:text-lg text-htr-charcoal tracking-widest uppercase no-underline bg-transparent border-0 cursor-pointer hover:text-htr-charcoal;
+  @apply flex items-center font-bicyclette font-bold text-mobile-btn xl:text-lg text-htr-charcoal tracking-widest uppercase no-underline bg-transparent border-0 cursor-pointer transition-all hover:text-htr-charcoal;
 }
 
 .btn-top {
@@ -19,7 +19,7 @@
 }
 
 .btn-svg {
-  @apply w-12 h-12 xl:w-20 xl:h-20 mr-3;
+  @apply w-12 h-12 xl:w-20 xl:h-20 mr-3 transition-all duration-500;
 }
 
 .btn-svg-outer {
@@ -114,6 +114,10 @@ body.about .btn-hamburger-line::after {
 }
 
 @media (hover: hover) {
+  .btn-icon:hover .btn-svg {
+    @apply mr-5;
+  }
+
   .btn-icon:hover .btn-svg-outer,
   .btn-faq:hover .btn-svg-outer {
     @apply fill-htr-charcoal;
