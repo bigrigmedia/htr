@@ -7,6 +7,7 @@ if (jsDestinations) {
     if (body.classList.contains('destinations-open')) {
       body.classList.remove('destinations-open')
       jsDestinations.parentElement.classList.remove('is-active')
+      jsDestinations.innerHTML = 'Destinations'
     }
   })
 
